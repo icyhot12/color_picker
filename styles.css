@@ -67,7 +67,7 @@ body {
   transition: 1s;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 600px){
     .top-container {
         flex-direction: row;
     }
