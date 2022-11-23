@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="top-container">
+        <input type="color" id="color-picker" />
+        <label for="color-picker">Pick up your color</label>
+        <select name="mode" id="mode">
+          <option value="monochrome" selected>Monochrome</option>
+          <option value="monochrome-dark">Monochrome Dark</option>
+          <option value="monochrome-light">Monochrome Light</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic Complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <input
+          type="number"
+          name="count"
+          id="count"
+          min="1"
+          max="6"
+          value="3"
+        />
+        <button id="get-color">Get color scheme</button>
+      </div>
+      <div class="color-container" id="colors-container"></div>
+      <div class="clipboard-info">Color copied to clipboard!</div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
