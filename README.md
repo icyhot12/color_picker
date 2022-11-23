@@ -1,2 +1,3 @@
 Simple color picker working with The Color API
-![obraz](https://user-images.githubusercontent.com/99483666/203636608-b95ab63c-8940-47d3-a09e-5a4c5fec1b72.png)
+![obraz](https://user-images.githubusercontent.com/99483666/203637143-95afaf76-9c1b-467e-a98f-cb376fb819d5.png)
+
